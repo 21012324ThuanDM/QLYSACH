@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: ../view/Sach.php");
         exit();
     } else {
-        header("Location: index.php");
+        header("Location: index.html");
         exit();
     }
 }
